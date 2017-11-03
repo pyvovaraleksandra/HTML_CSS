@@ -1,0 +1,28 @@
+p {
+	font-family: sans-serif;
+}
+.first {
+	color: red;
+	text-decoration: underline;
+}
+.second {
+	font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+}
+.greenText {
+	color: #008000;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: -0.7px;
+}
+.cat {
+	text-align: right;
+}
+.painting {
+	text-align: center;
+}
+.painting > img { 
+	height: 300px;
+}
