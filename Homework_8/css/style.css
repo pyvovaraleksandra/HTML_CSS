@@ -1,0 +1,203 @@
+h2, h3, p {
+	color: #333;
+}
+h2 {
+    /*margin-top: 54px;*/
+    /* почему margin сдвигает всю секцию??? */
+	font-family: GothamPM;
+	font-size: 48px;
+	line-height: 65px;
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/* section 1 */
+.section_1 {
+	width: 100%;
+	background: url("../img/bg.png") no-repeat;
+	background-position-x: center;
+}
+.section_1 .top {
+	text-align: center;
+	padding-top: 86px;
+}
+.section_1 .top h1 {
+	font-family: GothamPB;
+	font-size: 60px;
+	color: #fff;
+	margin: 0;
+}
+.section_1 .top p {
+	font-family: GothamP;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 10px;
+}
+.section_1 .unlim {
+	width: 50%;
+	float: right;
+	margin-top: 129px;
+    padding-bottom: 248px;
+}
+.section_1 .unlim .first {
+	font-family: GothamPM;
+	font-size: 42px;
+	color: #b6f1ff;
+}
+.section_1 .unlim .second {
+	font-family: GothamP;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 56px;
+    line-height: 48px;
+}
+.section_1 .unlim .btn {
+	display: inline-block;
+	background-color: #ff1744;
+	border-radius: 5px;
+    box-shadow: 0px 3px 1px 0px #d50000;
+	padding: 22px 31px;
+	margin-top: 37px;
+}
+.section_1 .unlim .btn a {
+
+	font-family: GothamPBl;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+/* section 2 */
+.section_2 .wrapper, .section_3 .wrapper {
+	text-align: center;
+	padding-top: 55px;
+}
+.section_2 h2 {
+	margin: 0 0 39px 0;
+}
+.section_2 .wrapper > div {
+	width: 238px;
+	margin: 54px 25px;
+	text-align: center;
+	display: inline-block;
+}
+.section_2 .icon {
+	width: 60px;
+	height: 74px;
+	margin: 0 auto 6px;
+	background: url("../img/icons.png");
+}
+.section_2 .head {
+	font-family: GothamPM;
+	font-size: 20px;
+	color: #333;
+	line-height: 27px;
+}
+.section_2 .text {
+	font-family: GothamPL;
+	font-size: 20px;
+	color: #333;    
+	line-height: 27px;
+}
+.section_2 .events .icon {
+	background-position: -60px 0;
+}
+.section_2 .money .icon {
+	background-position: -124px 0;
+}
+.section_2 .time .icon {
+	background-position: -187px 0;
+}
+.section_2 .income .icon {
+	background-position: -250px 0;
+}
+.section_2 .easy .icon {
+	background-position: 0 74px;
+}
+.section_2 .indiv .icon {
+	background-position: -62px 74px;
+}
+.section_2 .results .icon {
+	background-position: -124px 74px;
+}
+.section_2 .support .icon {
+	background-position: -188px 74px;
+}
+.section_2 .freedom .icon {
+	background-position: -250px 74px;
+}
+
+
+/* section 3 */
+.section_3 {
+	background-color: #f5f5f5;
+}
+.section_3 h2 {
+	margin: 0;
+}
+.section_3 .wrapper > p {
+	font-family: GothamPL;
+	font-size: 24px;
+	margin-top: 8px;
+}
+.section_3 .left .pic, .section_3 .left .desc  {
+	float: left;
+	text-align: left;
+}
+.section_3 .right .pic, .section_3 .right .desc {
+	float: right;
+	text-align: right;
+}
+.section_3 .wrapper > div {
+	overflow: hidden;
+}
+.section_3 .left .pic {
+	margin: 65px 89px 56px;
+}
+.section_3 .left .desc {
+	margin: 28px 20px;
+}
+.section_3 .right .pic {
+	margin: 79px 112px 55px;
+}
+.section_3 .right .desc {
+	 margin: 94px -2px 0;
+}
+.section_3 div .pic {
+	width: 384px;
+	height: 523px;
+}
+.section_3 div .desc {
+	width: 542px;
+}
+.section_3 div .desc h3 {
+	font-family: GothamP;
+	font-size: 48px;
+}
+.section_3 div .desc p:not(.first) {
+	font-family: GothamPL;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.section_3 div .desc p.first {
+	font-family: GothamPL;
+	font-size: 24px;
+	margin-top: -26px;
+    margin-bottom: 53px;
+}
+
+hr {
+	position: absolute;
+    left: 0;
+    right: 0;
+	border-top: none;
+	border-color: #cfd8dc;
+}
