@@ -1,0 +1,78 @@
+.main {
+	position: absolute;
+  	top: 0px; bottom: 0;
+  	left: 0px; right: 0;
+	background: url("../img/Background.png");
+	background-size: cover;
+}
+.wrapper {
+	width: 370px;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.27);
+	box-shadow: 0px 2px 6px #75826d;
+	border: 1px solid rgba(255, 255, 255, 0.27);
+	border-radius: 5px;
+	margin: 135px auto 0;
+}
+.hole {
+	box-sizing: border-box;
+	width: 85px;
+    height: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.57);
+    border-radius: 5px;
+	background-color: #9cb28f;
+	box-shadow: inset 1px 1px 5px #94a888;
+    margin: 27px auto 0;
+}
+.ribbon {
+	background: url("../img/ribbon.png");
+	width: 52px;
+	height: 166px;
+	margin: -164px auto 0;
+}
+.form {
+	padding: 0 45px;
+	margin-bottom: 27px;
+}
+.form > p {
+	font: 18px Helvetica;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin-top: 38px;
+	margin-bottom: 35px;
+}
+.form input {
+	display: block;
+	width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    font: 14px Helvetica;
+	padding: 12px 39px;
+}
+.form input {
+	outline: none;
+}
+.form .inputText {
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 1px 1px rgba(148, 168, 136, 0.75);
+    margin-top: 10px;
+}
+
+.form input[name="username"] {
+    background: url(../img/Person.png) no-repeat 7px center;
+}
+.form input[name="password"] {
+    background: url(../img/Lock.png) no-repeat 7px center;
+    font-size: 28px;
+    padding: 4px 39px;
+}
+.form input[type="submit"] {
+	background-color: #76c566;
+	border: 1px solid #73a84c;
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.57), 0px 1px 1px #94a888;  
+	font-weight: bold;
+	margin-top: 15px;
+}
