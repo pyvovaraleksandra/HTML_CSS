@@ -76,3 +76,7 @@
 	font-weight: bold;
 	margin-top: 15px;
 }
+.form input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: rgba(118, 197, 102, 0.78);
+}
