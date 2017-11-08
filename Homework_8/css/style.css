@@ -16,6 +16,7 @@ hr.dark {
 }
 ul {
 	list-style: none;
+	padding: 0 0;
 }
 a {
 	text-decoration: none;
@@ -37,6 +38,11 @@ h3 {
 	width: 1170px;
 	margin: 0 auto;
 	overflow: hidden;
+}
+.head {
+	font-family: GothamPM;
+	font-size: 20px;
+	color: #333;
 }
 
 
@@ -119,9 +125,6 @@ h3 {
 	background: url("../img/icons.png");
 }
 .section_2 .head {
-	font-family: GothamPM;
-	font-size: 20px;
-	color: #333;
 	line-height: 27px;
 }
 .section_2 .text {
@@ -255,11 +258,11 @@ p.title {
 	color: #414141;   
 	line-height: 31px;
 }
-.section_4 .btn {
+.btn {
 	text-align: center;
 	margin-bottom: 80px;
 }
-.section_4 .btn a {
+.btn a {
 	font-family: GothamPB;
 	font-size: 18px;
 	color: #ff1744;
@@ -348,10 +351,6 @@ p.title {
 .section_7 .tab-tab {
 	margin-bottom: 26px;
 }
-.section_7 .tab-tab ul {
-	padding: 0 0;
-	margin: 0 0;
-}
 .section_7 .tab-tab li {
 	float: left;
 	margin: 0 63px;
@@ -425,17 +424,175 @@ p.title {
 .section_7 .tab-cont li .right-col ul {
 	list-style: disc outside;
 }
-/*.section_7 .tab-cont li .right-col ul li::before {
-    content: "";
-    position: relative;
-    top: -2px;
-    margin-right: 30px;
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    background-color: red;
-    border-radius: 4px;
-}*/
 .section_7 h3 {
 	margin: 0 0;
+}
+
+
+/* section 8 */
+.section_8 h2 {
+	font-family: GothamP;
+	font-size: 36px;
+}
+.section_8 .content {
+	text-align: center;
+	margin-top: 39px;
+}
+.section_8 .content > p {
+	font-family: GothamPM;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.section_8 .counter {
+	margin-bottom: 50px;
+}
+.section_8 .counter > div {
+	display: inline-block;
+	margin: 0px 8px;
+}
+.section_8 .counter .time {
+    width: 76px;
+    padding: 10px 0;
+    border-radius: 5px;
+	background-color: #ff1744;
+    display: inline-block;
+    font-family: GothamPM;
+    font-size: 48px;
+	color: #fff;
+	text-align: center;
+}
+.section_8 .counter p {
+	font-family: GothamPL;
+	font-size: 18px;
+}
+
+
+/* section 9 */
+.section_9 {
+	background-color: #fafafa;
+}
+.section_9 .content {
+	margin-bottom: 80px;
+}
+.section_9 .row {
+	padding-left: 208px;
+	margin-top: 52px;
+}
+.section_9 .calendar {
+	width: 60px;
+	height: 50px;
+	background: url(../img/section_8.png);
+	margin-top: 6px;
+}
+.section_9 .wallet {
+	width: 55px;
+	height: 50px;
+	background: url(../img/section_8.png) 55px 0;
+	margin-top: 25px;
+}
+.section_9 .desc {
+	width: 595px;
+	margin-left: 38px;
+	line-height: 28px;
+}
+.text {
+	font-family: GothamPL;
+	font-size: 18px;
+}
+.section_9 .text span {
+	font-family: GothamPM;
+	font-size: 20px;
+}
+.section_9 .text a {
+	color: #ff1744;
+}
+
+
+/* section 10 */
+.section_10 .steps {
+	text-align: center;
+	margin-top: 64px;
+	margin-bottom: 72px;
+}
+.section_10 .steps > li {
+	display: inline-block;
+	width: 200px;
+	position: relative;
+	margin: 0 44px;
+}
+.section_10 .steps .step {
+	width: 88px;
+	height: 88px;
+	border-radius: 45px;  
+	margin: 0 auto 34px;  
+}
+.section_10 .steps .text {
+	margin-top: 5px;
+    line-height: 29px;
+}
+.section_10 .steps .step-1 {
+	background: url("../img/step-1.png") no-repeat center #ff1744;
+}
+.section_10 .steps .step-2 {
+	background: url("../img/step-2.png") no-repeat center #ff1744;
+}
+.section_10 .steps .step-3 {
+	background: url("../img/step-3.png") no-repeat center #ff1744;
+}
+.section_10 .steps .step-4 {
+	background: url("../img/step-4.png") no-repeat center #ff1744;
+}
+.section_10 .steps > li::after {
+	content: url(../img/direction.png);
+	display: inline-block;
+    position: absolute;
+    top: 32px;
+    left: 238px;
+}
+.section_10 .steps > li:last-child::after {
+	display: none;
+}
+.section_10 .active-step .head, .section_10 .active-step .text {
+	color: #ff1744;
+}
+
+
+/* section 11 */
+.section_11 .content {
+	margin-top: 44px;
+	margin-bottom: 70px;
+    padding: 0 210px;
+}
+.section_11 .content > div {
+	margin-bottom: 48px;
+}
+.section_11 .text {
+	margin-top: 35px;
+    line-height: 30px;
+}
+.section_11 .head::before {
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	content: url(../img/question.png);
+	margin-right: 30px;
+	position: relative;
+	top: 12px;
+    left: 1px;
+}
+
+
+/* footer */
+.footer {
+	background-color: #303f9f;
+	text-align: center;
+}
+.footer .content {
+	padding: 56px 0;
+}
+.footer p {
+	font-family: GothamPL;
+	font-size: 18px;
+	color: #fff;
+	margin: 15px 0;
 }
