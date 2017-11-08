@@ -1,3 +1,9 @@
+.clearfix::after {
+     display: block;
+     content: "";
+     clear: both;
+}
+
 h2, h3, p {
 	color: #333;
 }
@@ -8,6 +14,7 @@ h2 {
 	font-size: 48px;
 	line-height: 65px;
 	text-align: center;
+	margin-bottom: 0px;
 }
 .wrapper {
 	width: 1170px;
@@ -142,10 +149,12 @@ h2 {
 .section_3 h2 {
 	margin: 0;
 }
-.section_3 .wrapper > p {
+/*.section_3 .wrapper > p {*/
+p.title {
 	font-family: GothamPL;
 	font-size: 24px;
 	margin-top: 8px;
+	/*text-align: center;*/
 }
 .section_3 .left .pic, .section_3 .left .desc  {
 	float: left;
@@ -200,4 +209,114 @@ hr {
     right: 0;
 	border-top: none;
 	border-color: #cfd8dc;
+}
+
+
+
+.section_4 .col{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 0px 99px;
+	margin: 80px 0 64px;
+}
+.section_4 .col > div {
+    width: 340px;
+    float: left;
+	text-align: center;
+}
+.section_4 .icon {
+	width: 164px;
+	height: 63px;
+	background: url(../img/4_1.png) no-repeat;
+	color: #fff;
+	font-family: GothamPM;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 6px;
+	margin: 0 auto;
+}
+.section_4 .head {
+	margin: 14px 0;
+	letter-spacing: 0.9px;
+	font-family: GothamPM;
+	font-size: 20px;
+	color: #414141;
+}
+.section_4 .text {
+	font-family: GothamPL;
+	font-size: 18.6px;
+	color: #414141;   
+	line-height: 31px;
+}
+.section_4 .btn {
+	text-align: center;
+	margin-bottom: 80px;
+}
+.section_4 .btn a {
+	font-family: GothamPB;
+	font-size: 18px;
+	color: #ff1744;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 3px solid #ff1744;
+	border-radius: 5px;
+	padding: 21px 27px;
+}
+
+
+.section_5 {
+	position: relative;
+	background-color: #fafafa;
+	text-align: center;
+}
+.section_5 .balloon {
+	position: absolute;
+	top: -123px;
+    left: 103px;
+	width: 175px;
+	height: 215px;
+	background: url(../img/baloon.png);
+}
+.section_5 .present {
+	position: relative;
+	display: inline-block;
+	top: -102px;
+    left: 380px;
+}
+.section_5 .present::before {
+	content: "В подарок";
+	padding: 8px 17px;
+    border-radius: 5px;
+	font-family: GothamPM;
+	font-size: 18px;
+	color: #fff;
+	background-color: #ff1744;
+}
+.section_5 .present::after {
+    content: '';
+    position: absolute;
+    left: -12px;
+    bottom: 4px;
+    border: 6px solid transparent;
+    border-right: 6px solid #ff1744;
+}
+.section_5 .text {
+	margin-top: 73px;
+	padding: 0 200px;
+}
+.section_5 .text p.head {
+	font-family: GothamPM;
+	font-size: 24px;
+	margin-bottom: 34px;
+}
+.section_5 .text p {
+	font-family: GothamPL;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 25px;
+}
+.section_5 .img {
+	margin-top: 75px;
 }
