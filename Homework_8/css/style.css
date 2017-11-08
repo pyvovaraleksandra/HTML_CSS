@@ -460,6 +460,7 @@ p.title {
     font-size: 48px;
 	color: #fff;
 	text-align: center;
+	cursor: default;
 }
 .section_8 .counter p {
 	font-family: GothamPL;
