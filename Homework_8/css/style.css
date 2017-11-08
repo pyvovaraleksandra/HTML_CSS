@@ -4,17 +4,34 @@
      clear: both;
 }
 
-h2, h3, p {
+h2, h3, p, a {
 	color: #333;
 }
+hr {
+	border-top: none;
+	border-color: #cfd8dc;
+}
+hr.dark {
+	border-color: #bdbdbd;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
 h2 {
-    /*margin-top: 54px;*/
+    margin-top: 54px;
     /* почему margin сдвигает всю секцию??? */
 	font-family: GothamPM;
 	font-size: 48px;
 	line-height: 65px;
 	text-align: center;
 	margin-bottom: 0px;
+}
+h3 {
+	font-family: GothamP;
+	font-size: 48px;
 }
 .wrapper {
 	width: 1170px;
@@ -186,10 +203,6 @@ p.title {
 .section_3 div .desc {
 	width: 542px;
 }
-.section_3 div .desc h3 {
-	font-family: GothamP;
-	font-size: 48px;
-}
 .section_3 div .desc p:not(.first) {
 	font-family: GothamPL;
 	font-size: 18px;
@@ -203,16 +216,8 @@ p.title {
     margin-bottom: 53px;
 }
 
-hr {
-	position: absolute;
-    left: 0;
-    right: 0;
-	border-top: none;
-	border-color: #cfd8dc;
-}
 
-
-
+/* section 4 */
 .section_4 .col{
 	width: 50%;
 	float: left;
@@ -266,6 +271,7 @@ hr {
 }
 
 
+/* section 5 */
 .section_5 {
 	position: relative;
 	background-color: #fafafa;
@@ -319,4 +325,117 @@ hr {
 }
 .section_5 .img {
 	margin-top: 75px;
+}
+
+
+/* section 6 */
+.section_6 .video {
+	text-align: center;
+    margin: 65px 0;
+}
+.section_6 iframe {
+	width: 441px;
+    height: 346px;
+    border-radius: 3px;
+}
+
+
+/* section 7 */
+.section_7 .tabs {
+	margin-top: 69px;
+	margin-bottom: 60px;
+}
+.section_7 .tab-tab {
+	margin-bottom: 26px;
+}
+.section_7 .tab-tab ul {
+	padding: 0 0;
+	margin: 0 0;
+}
+.section_7 .tab-tab li {
+	float: left;
+	margin: 0 63px;
+	position: relative;
+}
+.section_7 .tab-img {
+	width: 79px;
+	height: 120px;
+	margin: 0 auto;
+}
+.section_7 .tab-img img {
+	max-height: 120px;
+    max-width: 75px;
+}
+.section_7 .tab-name {
+	margin-top: 30px;
+	font-family: GothamPL;
+	font-size: 18px;
+	text-decoration: none;
+}
+.section_7 .tab-tab .active .tab-name {
+	font-family: GothamPM;
+}
+.section_7 .tab-tab .active::after {
+	content: "";
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    height: 7px;
+	border-radius: 10px;
+    background: #ff1744;
+}
+.section_7 .tab-cont > ul > li {
+	display: none;
+}
+.section_7 .tab-cont > ul > li.active {
+	display: block;
+}
+.section_7 .tab-cont > ul > li > div {
+	width: 50%;
+	margin-top: 92px;
+}
+.left-col {
+	float: left;
+}
+.right-col {
+	float: right;
+}
+.section_7 .tab-cont li .left-col {
+	box-sizing: border-box;
+    padding-top: 34px;
+    padding-left: 15px;
+}
+.section_7 .tab-cont li .right-col ul {
+	margin-top: 64px;
+	margin-left: 19px;
+	padding: 0 0;
+}
+.section_7 .tab-cont li .right-col ul li {
+	font-family: GothamPL;
+	font-size: 18px;
+	color: #333;
+	line-height: 31px;
+    margin: 29px 0;
+    color: #ff1744;
+}
+.section_7 .tab-cont li .right-col ul li span {
+	color: #333;
+}
+.section_7 .tab-cont li .right-col ul {
+	list-style: disc outside;
+}
+/*.section_7 .tab-cont li .right-col ul li::before {
+    content: "";
+    position: relative;
+    top: -2px;
+    margin-right: 30px;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 4px;
+}*/
+.section_7 h3 {
+	margin: 0 0;
 }
