@@ -1,0 +1,56 @@
+div {
+	box-sizing: border-box;
+}
+img {
+	height: auto;
+}
+
+
+@media (min-width: 320px) {
+	.wrapper {
+		width: 100vw;
+		padding: 15px;
+		color: yellow;
+		font-size: 14px;
+	}	
+	img {
+		width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	.wrapper {
+		width: 750px;
+		color: #000;
+		font-size: 16px;
+	}	
+	img {
+		width: 49%;
+	}
+}
+@media (min-width: 992px) {
+	.wrapper {
+		width: 970px;
+		color: #800080;
+		font-size: 14px;
+	}	
+	img {
+		width: 25%;
+	}
+}
+@media (min-width: 1200px) {
+	.wrapper {
+		width: 1170px;
+		color: green;
+		font-size: 16px;
+	}	
+}
+@media (min-width: 1600px) {
+	.wrapper {
+		width: 1600px;
+		color: red;
+		font-size: 20px;
+	}	
+	img {
+		width: 24%;
+	}
+}
