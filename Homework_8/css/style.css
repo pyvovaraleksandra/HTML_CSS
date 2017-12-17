@@ -374,6 +374,7 @@ p.title {
 .section_7 .tab-tab .active .tab-name {
 	font-family: GothamPM;
 }
+
 .section_7 .tab-tab .active::after {
 	content: "";
     display: block;
@@ -383,12 +384,20 @@ p.title {
     height: 7px;
 	border-radius: 10px;
     background: #ff1744;
+	transition: 0.5s;
 }
 .section_7 .tab-cont > ul > li {
-	display: none;
+	/*display: none;*/
+	position: absolute;
+	visibility:hidden;
+	opacity:0;
+	transition: 0.5s;
 }
 .section_7 .tab-cont > ul > li.active {
-	display: block;
+	/*display: block;*/
+	position: static;
+	visibility:visible;
+	opacity:1;
 }
 .section_7 .tab-cont > ul > li > div {
 	width: 50%;
