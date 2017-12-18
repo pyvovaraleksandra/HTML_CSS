@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('a').on('click', function(e){
+	$('.tab-tab a').on('click', function(e){
 		e.preventDefault();
 		var tabName = $(this).attr('href');
 
